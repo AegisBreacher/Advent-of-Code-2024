@@ -23,5 +23,4 @@ def part2(data=data(),score=0):
             score+=int(numlist[0])*int(numlist[1])
     return score
 
-print(part1())
-print(part2())
+print(f"Part1: {part1()}\nPart2: {part2()}")
